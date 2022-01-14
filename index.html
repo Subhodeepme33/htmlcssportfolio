@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contactus">ContactUs</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="intro" id="home">
+        <div class="info">
+          <p class="p1">Hey there,</p>
+          <p class="p2">I am Subhodeep Bhowmick</p>
+          <p class="p3">FULL STACK DEVELOPER  |  DEVOPS ENGINEER </p>
+          <button class="infobtn">MORE ABOUT ME</button>
+        </div>
+      </div>
+
+      <div class="projects" id="project">
+        <div class="card">
+          <img class="card-image" src="./images/blog.jpg" alt="Blog" />
+          <div class="container">
+            <p class="cardheader">Blogger</p>
+            <p class="cardtext">
+              Tech Stack - MERN.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="./images/cms.jpg" alt="Blog" />
+          <div class="container">
+            <p class="cardheader">CMS</p>
+            <p class="cardtext">
+              Tech Stack - PHP, MySQL.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="./images/lms.jpg" alt="Blog" />
+          <div class="container">
+            <p class="cardheader">LMS</p>
+            <p class="cardtext">Tech Stack - MEAN.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-image" src="./images/ecomm.jpg" alt="Blog" />
+          <div class="container">
+            <p class="cardheader">E-COM</p>
+            <p class="cardtext">Tech Stack - MERN.</p>
+          </div>
+        </div>
+      </div>
+      <!--Skills Section-->
+      <div class="skills" id="skills">
+        <h3>My Skills</h3>
+
+        <div class="skillset">
+          <small>React-JS & Angular</small>
+          <div class="w3-border">
+            <div
+              class="w3-grey"
+              style="height: 5px; width: 90%; margin-bottom: 5px"
+            ></div>
+          </div>
+        </div>
+        <div class="skillset">
+          <small>NodeJS,Python,PHP</small>
+          <div class="w3-border">
+            <div
+              class="w3-grey"
+              style="height: 5px; width: 80%; margin-bottom: 5px"
+            ></div>
+          </div>
+        </div>
+        <div class="skillset">
+          <small>Algorithms</small>
+          <div class="w3-border">
+            <div
+              class="w3-grey"
+              style="height: 5px; width: 75%; margin-bottom: 5px"
+            ></div>
+          </div>
+        </div>
+        <div class="skillset">
+          <small>MySQL, MongoDB</small>
+          <div class="w3-border">
+            <div
+              class="w3-grey"
+              style="height: 5px; width: 85%; margin-bottom: 5px"
+            ></div>
+          </div>
+        </div>
+        <div class="skillset">
+          <small>HTML,CSS,JS</small>
+          <div class="w3-border">
+            <div
+              class="w3-grey"
+              style="height: 5px; width: 92%; margin-bottom: 5px"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact form-->
+      <div class="contactform" id="contactus">
+        <h4>Contact-Us</h4>
+        <fieldset>
+          <legend>Name</legend>
+          <input type="text" />
+        </fieldset>
+        <fieldset>
+          <legend>Email</legend>
+          <input type="email" />
+        </fieldset>
+        <fieldset>
+          <legend>Phone</legend>
+          <input type="text" />
+        </fieldset>
+        <fieldset>
+          <legend>Query</legend>
+          <textarea rows="10" style="resize: none"> </textarea>
+        </fieldset>
+
+        <button
+          type="button"
+          style="
+            font-family: Poppins;
+            margin-top: 20px;
+            background-color: #881253;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+          "
+        >
+          Submit
+        </button>
+      </div>
+      
+      <div class="footer">
+        <footer>
+          <img src="/icons//facebook.png"  class="footerimage"/>
+          <img src="/icons/instagram.png" class="footerimage"/>
+          <img src="/icons/twitter.png" class="footerimage"/>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,175 @@
+body {
+  background-image: linear-gradient(#2f2f31, #202020, #404040);
+  margin: 0px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #1a1b20;
+  padding: 23px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 18px;
+  color: #dadaeb;
+  font-family: Poppins;
+  
+}
+a{
+  all:unset;
+}
+li:hover {
+  cursor: pointer;
+  background-color: rgb(165, 19, 100)
+}
+.main {
+  margin-top: 70px; }
+.intro {
+  background-color: #131417;
+  color: white;
+  font-family: Poppins;
+  padding: 25px;
+  
+}
+.info,
+p {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+}
+.p1 {
+  color: #d3e90e;
+  margin: 0px;
+  padding: 0px;
+  font-size:25px;
+}
+
+.p2 {
+  font-size: 45px;
+  margin: 0px;
+  font-family: Raleway;
+  font-weight: bold;
+  color: #d5dcdf;
+}
+
+.p3 {
+  color:rgb(14, 140, 212);
+}
+
+.infobtn {
+  font-family: Raleway;
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.infobtn:hover {
+  cursor: pointer;
+  background-color:rgb(165, 19, 100) ;
+}
+.projects {
+  background-image: linear-gradient(to right,#8d0b2b,#0e4d72);
+  margin: 0px;
+  color: white;
+  padding: 95px;
+}
+
+.card {
+  
+  width: 20%;
+  background-image: linear-gradient(#680e51, #20191f);
+  margin: 15px;
+  display: inline-block;
+  height: 280px;
+}
+.card-image {
+  height: 150px;
+  width: 100%;
+}
+.cardheader {
+  text-align: left;
+  font-size: 21px;
+}
+.cardtext {
+  text-align: left;
+  font-family: Poppins;
+  font-size: 15px;
+ 
+}
+.container {
+  padding: 2px 16px;
+}
+
+.skills {
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-left: 300px;
+  padding: 35px;
+}
+.skillset {
+  width: 70%;
+  padding: 10px;
+}
+small {
+  color: white;
+}
+.w3-border {
+  background-color: rgb(255, 255, 255);
+}
+.w3-grey {
+  background-image: linear-gradient(to right,rgb(18, 161, 172),#c9135f)
+}
+
+.contactform {
+  font-family: Poppins;
+  color: white;
+  font-size: 16px;
+  display: block;
+  width: 75%;
+  margin-left: 150px;
+}
+fieldset {
+  width: 61%;
+}
+input {
+  border-radius: 5px;
+  height: 20px;
+  display: block;
+  width: 95%;
+  background-color: #1e1e20;
+  color: white;
+  outline: 3px solid transparent;
+  padding: 15px;
+}
+
+textarea {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  background-color: #2f2f31;
+  color: white;
+}
+
+.frmbtn {
+  font-family: Poppins;
+  margin-bottom: 85px;
+}
+
+footer,img{
+  text-align: center
+}
+
+.footerimage{
+  height:30px;
+  width: 30px;
+  padding:25px
+}
