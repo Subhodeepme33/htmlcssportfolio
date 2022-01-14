@@ -122,10 +122,10 @@ p {
 small {
   color: white;
 }
-.w3-border {
+.progress {
   background-color: rgb(255, 255, 255);
 }
-.w3-grey {
+.progsub {
   background-image: linear-gradient(to right,rgb(18, 161, 172),#c9135f)
 }
 
